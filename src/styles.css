@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+
+.box {
+  /* test styles */
+  background-color: #a6c;
+  color: white;
+  display: flex;
+  left: 50%;
+  padding: 10px;
+  position: absolute;
+  transform: translateX(-50%);
+
+  /* component styles */
+  white-space: nowrap;
+  transition: width 0.5s;
+  overflow: hidden;
+  width: 0;
+}
+
+.copy {
+  align-items: center;
+  display: flex;
+}
